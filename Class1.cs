@@ -10,6 +10,7 @@ namespace GameProject
 {
     public class Game
     {
+        //change ONE
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public int Team1Score { get; set; }
@@ -35,7 +36,7 @@ namespace GameProject
 
     public class GameFactory
     {
- 
+        //change TWO
         public List<Game> GameList;
         public Game game;
         public String FilePath = @"..\..\Games.xml";
