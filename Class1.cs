@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
-
+//change THREE
 namespace GameProject
 {
     public class Game
     {
-        //change REAL
+        //change PEEL
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public int Team1Score { get; set; }
@@ -36,11 +36,11 @@ namespace GameProject
 
     public class GameFactory
     {
-        //change TWO
+        //change REAL
         public List<Game> GameList;
         public Game game;
         public String FilePath = @"..\..\Games.xml";
-
+        //change FOUR
         public GameFactory() {}
         public void CreateGameList()
         {
