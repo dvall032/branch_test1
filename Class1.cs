@@ -10,7 +10,7 @@ namespace GameProject
 {
     public class Game
     {
-        //change ONE
+        //change PEEL
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public int Team1Score { get; set; }
