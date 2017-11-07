@@ -36,7 +36,7 @@ namespace GameProject
 
     public class GameFactory
     {
-        //change TWO
+        //change REAL
         public List<Game> GameList;
         public Game game;
         public String FilePath = @"..\..\Games.xml";
