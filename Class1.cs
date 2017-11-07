@@ -39,7 +39,7 @@ namespace GameProject
         public List<Game> GameList;
         public Game game;
         public String FilePath = @"..\..\Games.xml";
-
+        //change FOUR
         public GameFactory() {}
         public void CreateGameList()
         {
